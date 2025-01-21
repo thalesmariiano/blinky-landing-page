@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="w-full h-28 -skew-y-[4deg] bg-black"></div>
-        <section class="w-full flex gap-10 flex-col justify-center items-center py-32 bg-black -translate-y-24 border-t-2 border-neutral-300/10">
+        <section class="w-full flex gap-10 flex-col justify-center items-center pt-32 pb-5 bg-black -translate-y-24 border-t-2 border-neutral-300/10">
             <div class="w-full max-w-5xl h-[32rem] flex justify-center items-center">
                 <div class="w-full h-full flex flex-col justify-center items-center bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-l-3xl">
                     <div class="space-y-7">
