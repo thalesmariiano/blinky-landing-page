@@ -7,5 +7,6 @@
         <AtualizadoSection />
         <FAQSection />
         <ContatoSection />
+        <AppFooter />
     </div>
 </template>
