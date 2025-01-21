@@ -5,5 +5,6 @@
         <ProtagonistaSection />
         <GlobalSection />
         <AtualizadoSection />
+        <FAQSection />
     </div>
 </template>
