@@ -6,5 +6,6 @@
         <GlobalSection />
         <AtualizadoSection />
         <FAQSection />
+        <ContatoSection />
     </div>
 </template>
