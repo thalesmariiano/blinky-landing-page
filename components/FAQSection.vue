@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full flex gap-12 justify-center items-start bg-blinkyBege overflow-hidden py-36">
+    <section class="relative w-full flex gap-12 justify-center items-start bg-blinkyBege overflow-hidden py-36">
         <img class="w-full max-w-7xl absolute -left-[38rem] -top-72 opacity-[0.92]" src="@/assets/images/blinky_icon_big.png" />
 
         <div class="space-y-7">
@@ -57,5 +57,5 @@
                 </template>
             </Accordion>
         </div>
-    </div>
+    </section>
 </template>
