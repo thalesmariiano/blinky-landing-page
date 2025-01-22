@@ -18,9 +18,9 @@
 
 <template>
     <div class="relative">
-        <img ref="protection_icon" class="w-24 absolute top-10 right-52" src="@/assets/images/protection_icon.png" />
-        <img ref="speed_icon" class="w-24 absolute top-80 left-32" src="@/assets/images/speed_icon.png" />
-        <img ref="security_icon" class="w-24 absolute bottom-36 left-[26rem]" src="@/assets/images/security_icon.png" />
+        <img ref="protection_icon" class="w-24 absolute top-10 right-52" src="@/assets/images/protection_white_icon.png" />
+        <img ref="speed_icon" class="w-24 absolute top-80 left-32" src="@/assets/images/speed_white_icon.png" />
+        <img ref="security_icon" class="w-24 absolute bottom-36 left-[26rem]" src="@/assets/images/security_white_icon.png" />
 
         <img class="w-full max-w-3xl" src="@/assets/images/woman_icon_bg.png" />
     </div>
