@@ -32,7 +32,7 @@
 
             <div class="flex gap-10 flex-col">
                 <h1 class="font-poppins font-semibold text-5xl text-center text-white">
-                    <span class="text-blinkyGreen">Seja Protagonista</span> <br>
+                    <span class="text-blinkyOceanGreen">Seja Protagonista</span> <br>
                     o mundo digital <br>
                     com a Blinky!
                 </h1>
