@@ -14,7 +14,7 @@
 
 <template>
     <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-16 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
-        <SliderDivider />
+        <SliderDivider class="-top-14"/>
 
         <div class="skew-y-[4deg] flex -translate-x-10">
             <div class="relative">
