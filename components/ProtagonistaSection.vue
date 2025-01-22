@@ -2,12 +2,10 @@
     const protection = useTemplateRef('protection_icon');
     const speed = useTemplateRef('speed_icon');
     const security = useTemplateRef('security_icon');
-
-    const map = (x: number, a: number, b: number, c: number, d: number) => (x - a) / (b - a) * (d - c) + c;
     
     const parallax = (e: MouseEvent) => {
-        const tX = map(e.x, 0, window.innerWidth, -7.5, 7.5);
-        const tY = map(e.y, 0, window.innerHeight, -7.5, 7.5);
+        const tX = reescale(e.x, 0, window.innerWidth, -7.5, 7.5);
+        const tY = reescale(e.y, 0, window.innerHeight, -7.5, 7.5);
         protection.value.style.transform = `translate(${-5 + tX}%,${-5 + -tY}%)`;
         speed.value.style.transform = `translate(${-5 + -tX}%,${-5 + tY}%)`;
         security.value.style.transform = `translate(${-5 + tY}%,${-5 + tX}%)`;
