@@ -4,9 +4,7 @@
         <SliderDivider />
 
         <div class="skew-y-[4deg] flex -translate-x-10">
-            <div>
-                <img class="w-full max-w-3xl" src="@/assets/images/woman_icon_bg.png" />
-            </div>
+            <WomanParticles />
 
             <div class="flex gap-5 flex-col mt-5 -translate-x-16">
                 <h1 class="font-poppins font-semibold text-5xl bg-gradient-to-r from-[#00b7f6] to-[#00ea67] bg-clip-text text-transparent">
