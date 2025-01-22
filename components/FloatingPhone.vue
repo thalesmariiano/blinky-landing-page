@@ -8,7 +8,7 @@
 
 <template>
     <div class="relative mt-3">
-        <img class="w-96" src="@/assets/images/celular.png" />
+        <img class="w-96 floatingPhone" src="@/assets/images/celular.png" />
 
         <div class="absolute top-24 -left-32 notificationSale opacity-0" style="animation-delay: 5s">
             <NotificationSale />
@@ -33,15 +33,31 @@
 </template>
 
 <style scoped>
+    .floatingPhone {
+        animation: floating 4s ease infinite
+    }
+
+    @keyframes floating {
+        0% {
+           transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-25px)
+        }
+        100% {
+            transform: translateY(0)
+        }
+    }
+
     .notificationSale {
-        animation: swipingUp 4s infinite;
+        animation: swipingUp 5s infinite;
     }
 
     @keyframes swipingUp {
         0% {
             opacity: 0;
         }
-        25% {
+        50% {
             opacity: 1;
             transform:translateY(-50px);
         }
