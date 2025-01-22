@@ -3,7 +3,9 @@
         <div class="w-full h-28 -skew-y-[4deg] bg-black"></div>
         <section class="w-full flex gap-10 flex-col justify-center items-center pt-32 pb-5 bg-black -translate-y-24 border-t-2 border-neutral-300/10">
             <div class="w-full max-w-5xl h-[32rem] flex justify-center items-center">
-                <div class="w-full h-full flex flex-col justify-center items-center bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-l-3xl">
+                <div class="relative w-full h-full flex flex-col justify-center items-center bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-l-3xl">
+                    <img class="w-11 absolute top-5 mr-1 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
+
                     <div class="space-y-7">
                         <h1 class="font-poppins font-semibold text-3xl text-white">
                             <span class="text-blinkyGreen">Mantenha-se atualizado</span> <br>
