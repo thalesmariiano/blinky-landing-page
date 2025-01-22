@@ -13,6 +13,9 @@ export default<Partial<Config>> {
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans-serif']
+            },
+            dropShadow: {
+                'blinkyIcon': '0 0 35px rgba(0, 238, 254, 0.25)',
             }
         }
     }
