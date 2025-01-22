@@ -4,6 +4,7 @@ export default<Partial<Config>> {
     theme: {
         extend: {
             colors: {
+                blinkyOceanGreen: '#28ffce',
                 blinkyBlue: '#00EEFE',
                 blinkyGreen: '#00FEA6',
                 blinkyDark: '#121212',
