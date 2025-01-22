@@ -1,10 +1,31 @@
+<script setup lang="ts">
+    const protection = useTemplateRef('protection_icon');
+    const speed = useTemplateRef('speed_icon');
+    const security = useTemplateRef('security_icon');
+
+    const parallax = (e: MouseEvent) => {
+        const tX = reescale(e.x, 0, window.innerWidth, -7.5, 7.5);
+        const tY = reescale(e.y, 0, window.innerHeight, -7.5, 7.5);
+        protection.value.style.transform = `translate(${-5 + tX}%,${-5 + -tY}%)`;
+        speed.value.style.transform = `translate(${-5 + -tX}%,${-5 + tY}%)`;
+        security.value.style.transform = `translate(${-5 + tY}%,${-5 + tX}%)`;
+    }
+</script>
+
 <template>
-    <section
-        class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-16 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
+    <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-16 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
         <SliderDivider />
 
         <div class="skew-y-[4deg] flex -translate-x-10">
-            <WomanParticles />
+            <div class="relative">
+                <!-- parallax icons -->
+                <img ref="protection_icon" class="w-24 absolute top-10 right-52" src="@/assets/images/protection_white_icon.png" />
+                <img ref="speed_icon" class="w-24 absolute top-80 left-32" src="@/assets/images/speed_white_icon.png" />
+                <img ref="security_icon" class="w-24 absolute bottom-36 left-[26rem]" src="@/assets/images/security_white_icon.png" />
+                <!-- parallax icons -->
+
+                <img class="w-full max-w-3xl" src="@/assets/images/woman_icon_bg.png" />
+            </div>
 
             <div class="flex gap-5 flex-col mt-5 -translate-x-16">
                 <h1 class="font-poppins font-semibold text-5xl bg-gradient-to-r from-[#00b7f6] to-[#00ea67] bg-clip-text text-transparent">
