@@ -34,7 +34,7 @@
                 <h1 class="font-poppins font-semibold text-5xl text-center text-white">
                     <span class="text-blinkyOceanGreen">Seja Protagonista</span> <br>
                     o mundo digital <br>
-                    com a Blinky!
+                    com a <span class="relative back-stroke text-shadow">Blinky!</span>
                 </h1>
                 <p class="font-poppins font-light text-white text-center text-lg">
                     Como produtor, coprodutor ou afiliado, encontre na <br>
@@ -50,3 +50,13 @@
         </div>
     </section>
 </template>
+
+<style scoped>
+    .back-stroke {
+        @apply after:content-[''] after:w-full after:h-5 after:bg-blinkyOceanGreen after:absolute after:left-0 after:bottom-2 after:-z-10
+    }
+
+    .text-shadow {
+        text-shadow: 0px 3px 5px rgba(0,0,0,.3);
+    }
+</style>
