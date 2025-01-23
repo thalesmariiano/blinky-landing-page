@@ -1,24 +1,27 @@
 <template>
     <div class="w-full flex justify-center items-center py-4 border-b-2 border-neutral-300/10">
         <header class="w-full max-w-4xl flex justify-between items-center">
-            <img class="w-24" src="@/assets/images/blinky_logo.png" />
+            <img class="w-28" src="@/assets/images/blinky_logo.png" />
 
             <nav>
                 <ul class="flex gap-10 items-center">
                     <li>
-                        <a class="font-poppins font-light text-white">Inicio</a>
+                        <a class="font-poppins font-light text-white text-lg">Inicio</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white">Soluções</a>
+                        <a class="font-poppins font-light text-white text-lg">Soluções</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white">Global</a>
+                        <a class="font-poppins font-light text-white text-lg">Global</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white">Contato</a>
+                        <a class="font-poppins font-light text-white text-lg">Contato</a>
                     </li>
                     <li>
-                        <RegisterButton />
+                        <a class="flex gap-3 items-center text-sm font-poppins font-semibold text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">
+                            Cadastre-se
+                            <IconsArrowForward width="20" height="20" stroke="#000" />
+                        </a>
                     </li>
                 </ul>
             </nav>
