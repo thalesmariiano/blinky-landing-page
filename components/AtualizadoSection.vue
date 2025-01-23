@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import ManNotification from './ManNotification.vue';
+
+</script>
+
 <template>
     <div>
         <div class="w-full h-12 bg-black"></div>
@@ -29,8 +34,7 @@
                     
                 </div>
                 <div class="relative w-full max-w-md h-full bg-gradient-to-br from-blinkyBlue to-blinkyGreen rounded-r-3xl">
-                    <img class="w-[26rem] absolute -left-20 bottom-0" src="@/assets/images/man_on_phone.png" />
-                    <img class="w-[28rem] absolute -left-32 -top-36 mix-blend-screen" src="@/assets/images/light_blur_front.png" />
+                    <<ManNotification />
                 </div>
             </div>
 
