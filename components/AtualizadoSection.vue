@@ -2,9 +2,9 @@
     <div>
         <div class="w-full h-12 bg-black"></div>
         <section class="w-full flex gap-10 flex-col justify-center items-center pt-32 pb-5 bg-black -translate-y-24 border-t-2 border-neutral-300/10">
-            <div class="w-full max-w-5xl h-[32rem] flex justify-center items-center">
+            <div class="w-full max-w-5xl h-[33rem] flex justify-center items-center">
                 <div class="relative w-full h-full flex flex-col justify-center items-center bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-l-3xl">
-                    <img class="w-11 absolute top-5 mr-1 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
+                    <img class="w-11 absolute top-6 mr-1 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
 
                     <div class="space-y-7">
                         <h1 class="font-poppins font-semibold text-3xl text-white">
@@ -30,6 +30,7 @@
                 </div>
                 <div class="relative w-full max-w-md h-full bg-gradient-to-br from-blinkyBlue to-blinkyGreen rounded-r-3xl">
                     <img class="w-[26rem] absolute -left-20 bottom-0" src="@/assets/images/man_on_phone.png" />
+                    <img class="w-[28rem] absolute -left-32 -top-36 mix-blend-screen" src="@/assets/images/light_blur_front.png" />
                 </div>
             </div>
 
