@@ -15,7 +15,7 @@
                     hoje e abra as portas para um futuro de prosperidade.
                 </p>
 
-                <a class="flex gap-3 items-center font-poppins text-black font-semibold bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-12 py-1.5 rounded-lg">
+                <a class="hoverAnimation flex gap-3 items-center font-poppins text-black font-semibold bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-12 py-1.5 rounded-lg">
                     Fale Conosco
                     <IconsArrowForward width="20" height="20" stroke="#000" />
                 </a>

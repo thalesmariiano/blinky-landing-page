@@ -11,7 +11,7 @@
                     Transforme cada venda em um passo a passo <br>
                     para o topo e venda mais pagando menos
                 </p>
-                <a class="flex gap-3 items-center font-poppins font-semibold text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-5 py-1.5 rounded-lg">
+                <a class="hoverAnimation flex gap-3 items-center font-poppins font-semibold text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-5 py-1.5 rounded-lg">
                     Cadastre-se
                     <IconsArrowForward width="20" height="20" stroke="#000" />
                 </a>
