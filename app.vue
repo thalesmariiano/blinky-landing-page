@@ -1,13 +1,13 @@
 <template>
     <div class="bg-black">
         <AppHeader />
-        <InicioSection />
-        <SolucoesSection />
+        <InicioSection id="inicio" />
+        <SolucoesSection id="solucoes" />
         <ProtagonistaSection />
-        <GlobalSection />
+        <GlobalSection id="global" />
         <AtualizadoSection />
         <FAQSection />
-        <ContatoSection />
+        <ContatoSection id="contato" />
         <AppFooter />
     </div>
 </template>
