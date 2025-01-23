@@ -21,16 +21,16 @@
             <nav>
                 <ul class="flex gap-10 items-center">
                     <li>
-                        <a class="font-poppins font-light text-white text-lg">Inicio</a>
+                        <a href="#inicio" class="font-poppins font-light text-white text-lg">Inicio</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white text-lg">Soluções</a>
+                        <a href="#solucoes" class="font-poppins font-light text-white text-lg">Soluções</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white text-lg">Global</a>
+                        <a href="#global" class="font-poppins font-light text-white text-lg">Global</a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white text-lg">Contato</a>
+                        <a href="#contato" class="font-poppins font-light text-white text-lg">Contato</a>
                     </li>
                     <li>
                         <a class="hoverAnimation flex gap-3 items-center text-sm font-poppins font-semibold text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">

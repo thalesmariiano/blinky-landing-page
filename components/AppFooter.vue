@@ -8,12 +8,12 @@
                     <p class="font-poppins font-semibold text-white italic">Navegue:</p>
                     <nav class="flex gap-12">
                         <div class="flex gap-5 flex-col">
-                            <a class="font-poppins font-light text-white text-sm">Inicio</a>
-                            <a class="font-poppins font-light text-white text-sm">Global</a>
+                            <a href="#inicio" class="font-poppins font-light text-white text-sm">Inicio</a>
+                            <a href="#global" class="font-poppins font-light text-white text-sm">Global</a>
                         </div>
                         <div class="flex gap-5 flex-col">
-                            <a class="font-poppins font-light text-white text-sm">Soluções</a>
-                            <a class="font-poppins font-light text-white text-sm">Contato</a>
+                            <a href="#solucoes" class="font-poppins font-light text-white text-sm">Soluções</a>
+                            <a href="#contato" class="font-poppins font-light text-white text-sm">Contato</a>
                         </div>
                     </nav>
                 </div>
