@@ -5,7 +5,7 @@
         <div class="space-y-10 skew-y-[4deg]">
             <div class="relative flex gap-8 flex-col bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 px-14 py-10 rounded-3xl">
                 <img class="w-12 absolute -top-7 left-[14.5rem] drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
-                <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg]" src="@/assets/images/light_blur_division.png" />
+                <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg] -z-10" src="@/assets/images/light_blur_division.png" />
 
                 <h1 class="font-poppins font-semibold text-3xl text-white">
                     A Blinky está <span class="text-blinkyOceanGreen italic">redefinindo <br>
@@ -22,8 +22,8 @@
                 </a>
             </div>
             <div class="w-full flex gap-4 justify-center items-center">
-                <a><img class="w-32" src="@/assets/images/app_store.png"></a>
-                <a><img class="w-32" src="@/assets/images/play_store.png"></a>
+                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
+                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
             </div>
         </div>
 

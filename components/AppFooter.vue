@@ -21,8 +21,8 @@
                 <div class="space-y-3">
                     <p class="font-poppins font-semibold text-white italic">Baixe nosso aplicativo:</p>
                     <div class="flex gap-4 items-center">
-                        <a><img class="w-28" src="@/assets/images/app_store.png"></a>
-                        <a><img class="w-28" src="@/assets/images/play_store.png"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
                     </div>
                 </div>
             </div>

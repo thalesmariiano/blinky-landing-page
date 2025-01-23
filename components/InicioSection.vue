@@ -16,8 +16,8 @@
                     <IconsArrowForward width="20" height="20" stroke="#000" />
                 </a>
                 <div class="flex gap-4 items-center">
-                    <a><img class="w-32" src="@/assets/images/app_store.png"></a>
-                    <a><img class="w-32" src="@/assets/images/play_store.png"></a>
+                    <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
+                    <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
                 </div>
             </div>
 

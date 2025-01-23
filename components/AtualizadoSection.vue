@@ -22,8 +22,8 @@
                         </p>
                         <div class="flex gap-4 justify-center items-center">
                             <p class="font-poppins font-semibold italic text-white">Baixe o aplicativo: </p>
-                            <a><img class="w-28" src="@/assets/images/app_store.png"></a>
-                            <a><img class="w-28" src="@/assets/images/play_store.png"></a>
+                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
+                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
                         </div>
                     </div>
                     
