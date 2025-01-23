@@ -1,11 +1,3 @@
-<script setup lang="ts">
-
-    setTimeout(() => {
-
-    }, 1000)
-
-</script>
-
 <template>
     <div class="relative mt-3">
         <img class="w-96 floatingPhone" src="@/assets/images/celular.png" />
