@@ -5,23 +5,19 @@
                 Your browser does not support the video tag.
         </video>
 
-        <div class="absolute top-24 -left-12 notificationSale opacity-0" style="animation-delay: 5s">
+        <div class="absolute top-24 -right-0 notificationSale opacity-0" style="animation-delay: 7s">
             <NotificationSale />
         </div>
 
-        <div class="absolute top-32 -right-32 notificationSale opacity-0" style="animation-delay: 2s">
+        <div class="absolute top-48 -left-10 notificationSale opacity-0" style="animation-delay: 5s">
             <NotificationSale />
         </div>
 
-        <div class="absolute top-72 -right-12 notificationSale opacity-0" style="animation-delay: 7s">
+        <div class="absolute top-72 -right-12 notificationSale opacity-0" style="animation-delay: 3s">
             <NotificationSale />
         </div>
 
-        <div class="absolute top-96 left-56 notificationSale opacity-0" style="animation-delay: 8s">
-            <NotificationSale />
-        </div>
-
-        <div class="absolute top-80 notificationSale opacity-0" style="animation-delay: 1s">
+        <div class="absolute top-96 left-12 notificationSale opacity-0" style="animation-delay: 1s">
             <NotificationSale />
         </div>
     </div>    
