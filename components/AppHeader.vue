@@ -1,5 +1,20 @@
+<script setup lang="ts">
+    const headerNav = useTemplateRef('headerNav');  
+
+    onMounted(() => {
+        window.onscroll = (e: any) => {
+            if(window.scrollY <= 5) headerNav.value?.classList.remove('header-nav')
+            else headerNav.value?.classList.add('header-nav')
+        }
+    })
+
+    
+   
+
+</script>
+
 <template>
-    <div class="w-full flex justify-center items-center py-4 border-b-2 border-neutral-300/10">
+    <div ref="headerNav" class="w-full flex justify-center items-center py-4 border-b-2 border-neutral-300/10 fixed top-0 left-0 z-[9999] transition-all">
         <header class="w-full max-w-4xl flex justify-between items-center">
             <img class="w-28" src="@/assets/images/blinky_logo.png" />
 
@@ -28,3 +43,10 @@
         </header>
     </div>
 </template>
+
+<style scoped>
+    .header-nav {
+        @apply bg-black/20 backdrop-blur-md py-[10px]
+    }
+
+</style>
