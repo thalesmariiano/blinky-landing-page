@@ -14,11 +14,11 @@
 </script>
 
 <template>
-    <div ref="headerNav" class="w-full flex justify-center items-center py-4 border-b-2 border-neutral-300/10 fixed top-0 left-0 z-[9999] transition-all">
+    <div ref="headerNav" class="w-full flex justify-center items-center p-4 border-b-2 border-neutral-300/10 fixed top-0 left-0 z-[9999] transition-all">
         <header class="w-full max-w-4xl flex justify-between items-center">
             <img class="w-28" src="@/assets/images/blinky_logo.png" />
 
-            <nav>
+            <nav class="hidden md:block">
                 <ul class="flex gap-10 items-center">
                     <li>
                         <a href="#inicio" class="font-poppins font-light text-white text-lg">Inicio</a>
@@ -40,6 +40,13 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="space-y-1 mt-2 md:hidden">
+                <div class="w-7 h-1 bg-white rounded"></div>
+                <div class="w-7 h-1 bg-white rounded"></div>
+                <div class="w-7 h-1 bg-white rounded"></div>
+            </div>
+
         </header>
     </div>
 </template>

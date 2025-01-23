@@ -1,25 +1,25 @@
 <template>
     <div class="relative mt-3">
-        <img class="w-96 floatingPhone" src="@/assets/images/celular.png" />
+        <img class="w-72 lg:w-96 floatingPhone" src="@/assets/images/celular.png" />
 
-        <div class="absolute top-24 -left-32 notificationSale opacity-0" style="animation-delay: 5s">
-            <NotificationSale />
+        <div class="absolute top-24 -left-24 sm:-left-32 notificationSale opacity-0" style="animation-delay: 5s">
+            <NotificationSale class="scale-50 sm:scale-90 lg:scale-100" />
         </div>
 
         <div class="absolute top-52 left-32 notificationSale opacity-0" style="animation-delay: 2s">
-            <NotificationSale />
+            <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
 
-        <div class="absolute top-72 right-32 notificationSale -z-10 opacity-0" style="animation-delay: 7s">
-            <NotificationSale />
+        <div class="absolute top-48 right-32 notificationSale -z-10 opacity-0" style="animation-delay: 7s">
+            <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
 
-        <div class="absolute top-96 left-56 -z-10 notificationSale opacity-0" style="animation-delay: 8s">
-            <NotificationSale />
+        <div class="absolute top-32 left-36 -z-10 notificationSale opacity-0" style="animation-delay: 8s">
+            <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
 
-        <div class="absolute top-[25rem] notificationSale opacity-0" style="animation-delay: 1s">
-            <NotificationSale />
+        <div class="absolute top-80 notificationSale opacity-0" style="animation-delay: 1s">
+            <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
     </div>
 </template>
