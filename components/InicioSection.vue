@@ -1,8 +1,6 @@
 <template>
     <section class="path flex flex-col justify-start items-center bg-blinkyDark bg-[url('@/assets/images/shine_phone_back.png')] bg-center bg-cover">
-        <AppHeader />
-
-        <div class="w-full max-w-4xl gap-10 flex justify-between items-center pt-20 pb-36">
+        <div class="w-full max-w-4xl gap-10 flex justify-between items-center pt-32 pb-36">
             <div class="flex gap-5 flex-col justify-center items-start">
                 <h1 class="font-poppins font-semibold text-white text-[3.5rem] leading-none">
                     Simplifique, <br>
