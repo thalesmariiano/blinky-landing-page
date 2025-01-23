@@ -13,10 +13,10 @@
 </script>
 
 <template>
-    <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-16 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
+    <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-10 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
         <SliderDivider class="-top-14"/>
 
-        <div class="skew-y-[4deg] flex -translate-x-10">
+        <div class="skew-y-[4deg] flex -translate-x-10 translate-y-8">
             <div class="relative">
                 <!-- parallax icons -->
                 <img ref="protection_icon" class="w-24 absolute top-10 right-52" src="@/assets/images/protection_white_icon.png" />
