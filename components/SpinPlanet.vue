@@ -17,7 +17,7 @@
             <NotificationSale />
         </div>
 
-        <div class="absolute top-96 left-12 notificationSale opacity-0" style="animation-delay: 1s">
+        <div class="absolute top-80 sm:top-96 left-12 notificationSale opacity-0" style="animation-delay: 1s">
             <NotificationSale />
         </div>
     </div>    
