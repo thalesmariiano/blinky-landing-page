@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full max-w-lg skew-y-[4deg]">
+    <div class="relative w-full max-w-lg skew-y-[4deg]">
         <video width="520" height="520" autoplay muted loop>
             <source src="@/assets/videos/global.mp4" type="video/mp4">
                 Your browser does not support the video tag.

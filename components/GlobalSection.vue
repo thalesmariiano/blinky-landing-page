@@ -1,13 +1,13 @@
 <template>
-    <section class="w-full h-full flex justify-center items-center py-24 -skew-y-[4deg] bg-black">
+    <section class="w-full h-full flex gap-10 lg:gap-0 flex-col lg:flex-row justify-center items-center py-24 px-5 -skew-y-[4deg] bg-black">
         <SliderDivider />
 
         <div class="space-y-10 skew-y-[4deg]">
-            <div class="relative flex gap-8 flex-col bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 px-14 py-10 rounded-3xl">
-                <img class="w-12 absolute -top-7 left-[14.5rem] drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
+            <div class="relative flex gap-6 sm:gap-8 flex-col bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 p-10 sm:px-14 sm:py-10 rounded-3xl">
+                <img class="w-12 absolute -top-7 left-44 sm:left-[14.5rem] drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
                 <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg] -z-10" src="@/assets/images/light_blur_division.png" />
 
-                <h1 class="font-poppins font-semibold text-3xl text-white">
+                <h1 class="font-poppins font-semibold text-2xl sm:text-3xl text-white">
                     A Blinky está <span class="text-blinkyOceanGreen italic">redefinindo <br>
                     o mercado global</span> - e você <br>
                     pode fazer parte disso!
