@@ -34,7 +34,7 @@
                     o mundo digital <br>
                     com a <span class="relative back-stroke text-shadow">Blinky!</span>
                 </h1>
-                <p class="font-poppins font-light text-white text-center text-sm md:text-lg">
+                <p class="font-poppins font-light text-white text-center text-[13px] md:text-lg">
                     Como produtor, coprodutor ou afiliado, encontre na <br>
                     nossa plataforma o suporte perfeito para transformar <br>
                     ideias em lucro.

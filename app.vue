@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black">
+    <div class="w-full bg-black overflow-x-hidden">
         <AppHeader />
         <InicioSection id="inicio" />
         <SolucoesSection id="solucoes" />
