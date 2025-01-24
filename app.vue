@@ -1,3 +1,9 @@
+<script setup lang="ts">
+    useHead({
+        title: "Blinky"
+    })
+</script>
+
 <template>
     <div class="w-full bg-black overflow-x-hidden">
         <AppHeader />
