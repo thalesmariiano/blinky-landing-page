@@ -1,8 +1,8 @@
 <template>
-    <section class="relative w-full flex gap-12 justify-center items-start bg-blinkyBege py-36">
-        <img class="w-full max-w-5xl absolute -left-[30rem] -top-52 opacity-[0.92]" src="@/assets/images/blinky_icon_big.png" />
+    <section class="relative w-full flex gap-12 flex-col lg:flex-row justify-center items-center lg:items-start bg-blinkyBege py-36 px-2">
+        <img class="w-full max-w-5xl absolute -left-56 sm:-left-72 md:-left-[30rem] top-16 sm:-top-7 md:-top-52 opacity-[0.92]" src="@/assets/images/blinky_icon_big.png" />
 
-        <div class="space-y-7">
+        <div class="space-y-7 z-10 text-center lg:text-left">
             <span class="font-poppins text-sm text-neutral-400 border-2 border-neutral-400 rounded-lg px-5 py-1.5">
                 Alguma dúvida?
             </span>
@@ -13,7 +13,7 @@
             </h3>
         </div>
 
-        <div class="flex flex-col gap-5">
+        <div class="flex flex-col gap-5 z-10">
             <Accordion>
                 <template #question>
                     Quais são as etapas para configurar a Blinky <br>
