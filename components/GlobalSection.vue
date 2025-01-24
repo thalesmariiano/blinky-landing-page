@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full h-full flex gap-10 lg:gap-0 flex-col lg:flex-row justify-center items-center py-24 px-2 -skew-y-[4deg] bg-black">
+    <section class="w-full h-full flex gap-10 lg:gap-0 flex-col lg:flex-row justify-center items-center pt-24 pb-5 px-2 -skew-y-[4deg] bg-black">
         <SliderDivider />
 
         <div class="space-y-10 skew-y-[4deg]">
