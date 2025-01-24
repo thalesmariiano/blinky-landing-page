@@ -21,7 +21,6 @@
                 </div>
             </div>
             
-            <img class="w-[40rem] absolute top-96 sm:top-0 right-0 sm:right-64 opacity-30" src="@/assets/images/blinky_icon_outline.png" />
             <FloatingPhone />  
         </div>
     </section>
