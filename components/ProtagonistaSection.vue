@@ -23,9 +23,9 @@
             <img class="w-14 absolute top-28 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
 
             <!-- parallax icons -->
-            <img ref="protection_icon" class="w-20 absolute top-24 sm:top-32 -right-0 sm:-right-20" src="@/assets/images/protection_dark_icon.png" />
-            <img ref="speed_icon" class="w-20 absolute top-64 sm:top-72 -left-0 sm:-left-16" src="@/assets/images/speed_dark_icon.png" />
-            <img ref="security_icon" class="w-20 absolute bottom-24 left-64 sm:left-72" src="@/assets/images/security_dark_icon.png" />
+            <img ref="protection_icon" class="w-16 sm:w-20 absolute top-24 sm:top-32 -right-0 sm:-right-20" src="@/assets/images/protection_dark_icon.png" />
+            <img ref="speed_icon" class="w-16 sm:w-20 absolute top-72 -left-0 sm:-left-16" src="@/assets/images/speed_dark_icon.png" />
+            <img ref="security_icon" class="w-16 sm:w-20 absolute bottom-24 left-64 sm:left-72" src="@/assets/images/security_dark_icon.png" />
             <!-- parallax icons -->
 
             <div class="flex gap-10 flex-col">
@@ -34,7 +34,7 @@
                     o mundo digital <br>
                     com a <span class="relative back-stroke text-shadow">Blinky!</span>
                 </h1>
-                <p class="font-poppins font-light text-white text-center md:text-lg">
+                <p class="font-poppins font-light text-white text-center text-sm md:text-lg">
                     Como produtor, coprodutor ou afiliado, encontre na <br>
                     nossa plataforma o suporte perfeito para transformar <br>
                     ideias em lucro.
