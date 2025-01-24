@@ -1,5 +1,6 @@
 <script setup lang="ts">
     const headerNav = useTemplateRef('headerNav');  
+    const showSideBar = ref<boolean>(false)
 
     onMounted(() => {
         window.onscroll = (e: any) => {
@@ -7,10 +8,6 @@
             else headerNav.value?.classList.add('header-nav')
         }
     })
-
-    
-   
-
 </script>
 
 <template>
@@ -41,13 +38,24 @@
                 </ul>
             </nav>
 
-            <div class="space-y-1 mt-2 md:hidden">
+            <button @click="showSideBar = true" class="space-y-1 mt-2 md:hidden">
                 <div class="w-7 h-1 bg-white rounded"></div>
                 <div class="w-7 h-1 bg-white rounded"></div>
                 <div class="w-7 h-1 bg-white rounded"></div>
-            </div>
+            </button>
 
         </header>
+
+        <Transition
+            enter-active-class="animate__animated animate__slideInRight"
+		    leave-active-class="animate__animated animate__slideOutRight"
+        >
+            <SideMenu
+                v-show="showSideBar"
+                @close="showSideBar = false"
+            />
+        </Transition>
+        
     </div>
 </template>
 
@@ -55,5 +63,4 @@
     .header-nav {
         @apply bg-black/20 backdrop-blur-md py-[10px]
     }
-
 </style>
