@@ -34,7 +34,7 @@ import ManNotification from './ManNotification.vue';
                     
                 </div>
                 <div class="relative w-full max-w-md h-full bg-gradient-to-br from-blinkyBlue to-blinkyGreen rounded-r-3xl">
-                    <<ManNotification />
+                    <ManNotification />
                 </div>
             </div>
 
