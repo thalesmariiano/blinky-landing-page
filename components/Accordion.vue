@@ -34,7 +34,7 @@
 
 <style scoped>
     .accordion {
-        @apply w-[34rem] bg-blinkyLittleDark rounded-2xl transition-all duration-300 shadow-2xl overflow-hidden
+        @apply w-full max-w-xl bg-blinkyLittleDark rounded-2xl transition-all duration-300 shadow-2xl overflow-hidden
     }
     .content {
         @apply flex justify-start items-start pl-10 pr-28 transition-all duration-500 py-5
