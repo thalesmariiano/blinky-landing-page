@@ -4,11 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth
+}
+
 .hoverAnimation {
     @apply relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-gradient-to-r after:from-blinkyBlue after:to-blinkyGreen after:blur-md after:opacity-30 after:hover:opacity-50 after:transition-all
 }
 
-html {
-    @apply scroll-smooth
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #202020;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1ea889;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #28ffce;
 }
 
