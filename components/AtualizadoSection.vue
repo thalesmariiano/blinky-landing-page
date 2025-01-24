@@ -4,21 +4,19 @@ import ManNotification from './ManNotification.vue';
 </script>
 
 <template>
-    <div>
-        <div class="w-full h-12 bg-black"></div>
-        <section class="w-full flex gap-10 flex-col justify-center items-center pt-32 pb-5 bg-black -translate-y-24 border-t-2 border-neutral-300/10">
-            <div class="w-full max-w-5xl h-[33rem] flex justify-center items-center">
-                <div class="relative w-full h-full flex flex-col justify-center items-center bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-l-3xl">
-                    <img class="w-11 absolute top-6 mr-1 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
+        <section class="w-full flex gap-10 flex-col justify-center items-center pt-32 pb-5 px-2 bg-black border-t-2 border-neutral-300/10">
+            <div class="w-full max-w-5xl h-[27rem] lg:h-[33rem] flex flex-col md:flex-row justify-center items-center">
+                <div class="relative w-full max-w-md md:max-w-xl h-full flex flex-col justify-center items-center p-5 bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-r-3xl md:rounded-r-none rounded-l-3xl">
+                    <img class="w-9 lg:w-11 absolute top-3 lg:top-6 mr-24 lg:mr-0 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
 
-                    <div class="space-y-7">
-                        <h1 class="font-poppins font-semibold text-3xl text-white">
+                    <div class="space-y-7 text-center md:text-left">
+                        <h1 class="font-poppins font-semibold text-2xl lg:text-3xl text-white">
                             <span class="text-blinkyGreen">Mantenha-se atualizado</span> <br>
                             sobre tudo o que ocorre em <br>
                             sua operação através do <br>
                             nosso <span class="text-blinkyGreen italic">aplicativo exclusivo.</span>
                         </h1>
-                        <p class="font-poppins font-light text-white">
+                        <p class="font-poppins font-light text-white text-sm lg:text-base">
                             Com uma tecnologia incomparável, <span class="font-semibold italic">a Blinky é <br>
                             a solução definitiva para o processamento de <br>
                             pagamentos</span>, proporcionando uma experiência <br>
@@ -33,7 +31,7 @@ import ManNotification from './ManNotification.vue';
                     </div>
                     
                 </div>
-                <div class="relative w-full max-w-md h-full bg-gradient-to-br from-blinkyBlue to-blinkyGreen rounded-r-3xl">
+                <div class="relative w-full max-w-md h-full md:bg-gradient-to-br from-blinkyBlue to-blinkyGreen rounded-r-3xl">
                     <ManNotification />
                 </div>
             </div>
@@ -62,7 +60,6 @@ import ManNotification from './ManNotification.vue';
                 
             </div>
         </section>
-    </div>
 </template>
 
 <style scoped>
