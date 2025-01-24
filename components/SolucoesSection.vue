@@ -13,7 +13,7 @@
 </script>
 
 <template>
-    <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-10 px-2 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
+    <section @mousemove="parallax" class="-skew-y-[4deg] relative w-full flex flex-col items-center pt-10 pb-16 lg:pb-0 px-2 bg-blinkyBege bg-[url('@/assets/images/bg_pattern.png')] bg-center bg-cover">
         <SliderDivider class="-top-14"/>
 
         <div class="skew-y-[4deg] flex flex-col md:flex-row items-center lg:items-start md:-translate-x-10 lg:translate-y-8">
