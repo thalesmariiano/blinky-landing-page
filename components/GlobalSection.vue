@@ -3,7 +3,7 @@
         <SliderDivider />
 
         <div class="space-y-10 skew-y-[4deg]">
-            <div class="relative flex justify-center bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 p-8 sm:px-14 sm:py-10 rounded-3xl">
+            <div class="relative flex justify-center bg-gradient-to-b lg:bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 p-8 sm:px-14 sm:py-10 rounded-3xl">
                 <img class="w-12 absolute -top-7 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
                 <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg] -z-10" src="@/assets/images/light_blur_division.png" />
 
