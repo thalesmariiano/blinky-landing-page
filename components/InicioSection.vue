@@ -20,7 +20,8 @@
                     <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
                 </div>
             </div>
-
+            
+            <img class="w-[40rem] absolute right-64 opacity-30" src="@/assets/images/blinky_icon_outline.png" />
             <FloatingPhone />  
         </div>
     </section>
