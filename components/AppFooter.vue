@@ -1,10 +1,10 @@
 <template>
-    <footer class="w-full py-16 bg-[#090909] space-y-12">
-        <div class="mx-auto w-full max-w-4xl flex justify-between items-start">
+    <footer class="w-full py-16 px-5 bg-[#090909] space-y-12">
+        <div class="mx-auto w-full max-w-4xl flex gap-10 flex-col md:flex-row justify-between items-center md:items-start">
             <img class="w-32" src="@/assets/images/blinky_logo.png" />
 
-            <div class="flex gap-24">
-                <div class="space-y-3">
+            <div class="flex gap-10 sm:gap-24 flex-col sm:flex-row items-center sm:items-start">
+                <div class="space-y-3 text-center sm:text-left">
                     <p class="font-poppins font-semibold text-white italic">Navegue:</p>
                     <nav class="flex gap-12">
                         <div class="flex gap-5 flex-col">
@@ -18,7 +18,7 @@
                     </nav>
                 </div>
 
-                <div class="space-y-3">
+                <div class="space-y-3 text-center sm:text-left">
                     <p class="font-poppins font-semibold text-white italic">Baixe nosso aplicativo:</p>
                     <div class="flex gap-4 items-center">
                         <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
@@ -31,7 +31,7 @@
             <p class="font-poppins font-semibold text-white italic text-center">Políticas</p>
             
             <nav>
-                <ul class="flex justify-between">
+                <ul class="flex gap-10 flex-wrap justify-center">
                     <li>
                         <a class="font-poppins font-light text-white text-sm">
                             Termos e condições de uso
