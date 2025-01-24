@@ -10,7 +10,7 @@
             <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
 
-        <div class="absolute top-48 right-32 notificationSale -z-10 opacity-0" style="animation-delay: 7s">
+        <div class="absolute top-48 right-32 notificationSale -z-10 opacity-0 md:hidden" style="animation-delay: 9s">
             <NotificationSale class="scale-50 sm:scale-75 lg:scale-100" />
         </div>
 
