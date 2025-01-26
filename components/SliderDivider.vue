@@ -1,4 +1,6 @@
 <script setup lang="ts">
+    const { direction = 1 } = defineProps(['direction']);
+
     import Splide from '@splidejs/splide'
 	import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
@@ -14,7 +16,7 @@
             fixedWidth: 'fit',
             gap: 80,
 			autoScroll: {
-				speed: 1.5
+				speed: Number(direction)
 			}
 		}).mount({ AutoScroll })		
 	})

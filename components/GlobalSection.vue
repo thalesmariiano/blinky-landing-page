@@ -1,6 +1,6 @@
 <template>
     <section class="w-full h-full flex gap-10 lg:gap-0 flex-col lg:flex-row justify-center items-center pt-24 pb-5 px-2 -skew-y-[4deg] bg-black">
-        <SliderDivider />
+        <SliderDivider :direction="-1" />
 
         <div class="space-y-10 skew-y-[4deg]">
             <div class="relative flex justify-center bg-gradient-to-b lg:bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 p-8 sm:px-14 sm:py-10 rounded-3xl">
