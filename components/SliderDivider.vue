@@ -11,7 +11,7 @@
 			arrows: false,
 			drag: false,
 			pagination: false,
-            fixedWidth: '100%',
+            fixedWidth: '1%',
 			autoScroll: {
 				speed: 1.5
 			}
@@ -25,22 +25,22 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <p class="font-poppins font-semibold text-xl md:text-2xl whitespace-nowrap">As menores taxas do mercado</p>
+                        <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">As menores taxas do mercado</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
                     </li>
                     <li class="splide__slide">
-                        <p class="font-poppins font-semibold text-xl md:text-2xl whitespace-nowrap">Saque instantâneo</p>
+                        <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">Saque instantâneo</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
                     </li>
                     <li class="splide__slide">
-                        <p class="font-poppins font-semibold text-xl md:text-2xl whitespace-nowrap">Saques via Criptomoeda (USDT)</p>
+                        <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">Saques via Criptomoeda (USDT)</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
                     </li>
                 </ul>
             </div>
