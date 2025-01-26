@@ -11,7 +11,8 @@
 			arrows: false,
 			drag: false,
 			pagination: false,
-            fixedWidth: '1%',
+            fixedWidth: 'fit',
+            gap: 80,
 			autoScroll: {
 				speed: 1.5
 			}
