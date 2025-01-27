@@ -10,7 +10,7 @@
                 <label :for="accordionId" class="accordion-title"><slot name="question" /></label>
             </div>
 
-            <div class="accordion-content w-full max-h-0 group-has-[:checked]:max-h-96">
+            <div class="accordion-content max-h-0 group-has-[:checked]:max-h-96">
                 <p class="font-poppins text-blinkyLittleBege text-sm pb-5">
                     <slot name="answer" />
                 </p>
