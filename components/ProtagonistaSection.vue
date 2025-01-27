@@ -39,7 +39,7 @@
                     nossa plataforma o suporte perfeito para transformar <br>
                     ideias em lucro.
                 </p>
-                <a href="https://pay.blinkybr.com/register" class="blinky-button-shine w-full flex gap-3 justify-center items-center font-poppins font-semibold md:text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">
+                <a href="https://pay.blinkybr.com/register" class="blinky-button-shine w-full blinky-button md:text-lg">
                         Cadastre-se
                     <IconsArrowForward width="20" height="20" stroke="#000" />
                 </a>

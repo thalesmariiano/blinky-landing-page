@@ -13,7 +13,7 @@
                     Transforme cada venda em um passo a passo <br>
                     para o topo e venda mais pagando menos
                 </p>
-                <a href="https://pay.blinkybr.com/register" class="blinky-button-shine flex gap-3 items-center font-poppins font-semibold text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-5 py-1.5 rounded-lg">
+                <a href="https://pay.blinkybr.com/register" class="blinky-button-shine blinky-button text-lg">
                     Cadastre-se
                     <IconsArrowForward width="20" height="20" stroke="#000" />
                 </a>

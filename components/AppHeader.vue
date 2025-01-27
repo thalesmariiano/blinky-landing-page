@@ -30,7 +30,7 @@
                         <a href="#contato" class="font-poppins font-light text-white text-lg">Contato</a>
                     </li>
                     <li>
-                        <a href="https://pay.blinkybr.com/register" class="blinky-button-shine flex gap-3 items-center text-sm font-poppins font-semibold text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">
+                        <a href="https://pay.blinkybr.com/register" class="blinky-button-shine blinky-button text-sm">
                             Cadastre-se
                             <IconsArrowForward width="20" height="20" stroke="#000" />
                         </a>

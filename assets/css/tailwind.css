@@ -10,6 +10,10 @@ html {
     @apply scroll-smooth
 }
 
+.blinky-button {
+    @apply flex gap-3 justify-center items-center font-poppins font-semibold text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-5 py-1.5 rounded-lg
+}
+
 .blinky-button-shine {
     @apply relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-gradient-to-r after:from-blinkyBlue after:to-blinkyGreen after:blur-md after:opacity-30 after:hover:opacity-50 after:transition-all
 }
