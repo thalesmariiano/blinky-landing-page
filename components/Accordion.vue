@@ -21,7 +21,7 @@
 
 <style scoped>
     .accordion {
-        @apply w-full max-w-lg sm:max-w-xl bg-blinkyLittleDark rounded-2xl shadow-2xl relative
+        @apply w-full max-w-lg sm:max-w-xl bg-blinkyLittleDark rounded-2xl shadow-xl relative
     }
     .accordion-title {
         @apply w-full p-5 cursor-pointer text-sm sm:text-base font-poppins font-semibold bg-gradient-to-r from-blinkyBlue to-blinkyGreen bg-clip-text text-transparent
