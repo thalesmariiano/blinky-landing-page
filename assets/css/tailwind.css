@@ -10,7 +10,7 @@ html {
     @apply scroll-smooth
 }
 
-.hoverAnimation {
+.blinky-button-shine {
     @apply relative after:content-[''] after:absolute after:left-0 after:top-0 after:w-full after:h-full after:bg-gradient-to-r after:from-blinkyBlue after:to-blinkyGreen after:blur-md after:opacity-30 after:hover:opacity-50 after:transition-all
 }
 
