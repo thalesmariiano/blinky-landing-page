@@ -20,9 +20,7 @@
                     meu site ou plataforma de vendas de info produtos?
                 </template>
                 <template #answer>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam ea quo est? Placeat, incidunt? Commodi doloremque alias assumenda quas quos quibusdam nemo id beatae?
-                    Molestias nostrum numquam vel porro expedita.
+                    Basta criar seu produto e realizar o cadastro das ofertas, após isso seu produto já está pronto para vender.
                 </template>
             </Accordion>
             <Accordion :accordion-id="'acc2'">
@@ -30,9 +28,7 @@
                     Quais métodos de pagamento a Blinky aceita?
                 </template>
                 <template #answer>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam ea quo est? Placeat, incidunt? Commodi doloremque alias assumenda quas quos quibusdam nemo id beatae?
-                    Molestias nostrum numquam vel porro expedita.
+                    Aceitamos cartão e Pix.
                 </template>
             </Accordion>
             <Accordion :accordion-id="'acc3'">
@@ -41,9 +37,7 @@
                     estarem disponíveis em minha conta com a Blinky?
                 </template>
                 <template #answer>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam ea quo est? Placeat, incidunt? Commodi doloremque alias assumenda quas quos quibusdam nemo id beatae?
-                    Molestias nostrum numquam vel porro expedita.
+                    O saque cai imediatamente na sua conta, inclusive nos fins de semana.
                 </template>
             </Accordion>
             <Accordion :accordion-id="'acc4'">
