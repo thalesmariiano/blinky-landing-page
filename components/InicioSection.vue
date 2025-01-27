@@ -1,6 +1,8 @@
 <template>
     <section class="path flex flex-col justify-start items-center bg-blinkyDark bg-[url('@/assets/images/shine_phone_back.png')] bg-center bg-cover">
-        <div class="w-full max-w-4xl gap-10 flex flex-col lg:flex-row lg:justify-between items-center pt-32 pb-36 sm:px-4">
+        <div class="relative w-full max-w-4xl gap-10 flex flex-col lg:flex-row lg:justify-between items-center pt-32 pb-36 sm:px-4">
+            <img class="max-w-2xl lg:max-w-3xl absolute top-72 lg:top-0 lg:-right-56 -z-10 opacity-30" src="@/assets/images/blinky_icon_outline.png" />
+
             <div class="flex gap-5 flex-col justify-center items-center lg:items-start">
                 <h1 class="font-poppins font-semibold text-white text-5xl lg:text-[3.5rem] text-center lg:text-left leading-none">
                     Simplifique, <br>

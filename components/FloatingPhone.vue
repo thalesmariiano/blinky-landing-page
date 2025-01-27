@@ -1,7 +1,6 @@
 <template>
     <div class="relative mt-3">
         <img class="w-72 lg:w-96 floatingPhone z-10" src="@/assets/images/celular.png" />
-        <img class="w-[40rem] absolute top-0 right-32 -z-10" src="@/assets/images/blinky_icon_outline.png" />
 
         <div class="absolute top-24 -left-24 sm:-left-32 notificationSale opacity-0" style="animation-delay: 5s">
             <NotificationSale class="scale-50 sm:scale-90 lg:scale-100" />
