@@ -14,7 +14,7 @@
         </div>
 
         <div class="flex flex-col gap-5 z-10">
-            <Accordion>
+            <Accordion :accordion-id="'acc1'">
                 <template #question>
                     Quais são as etapas para configurar a Blinky <br>
                     meu site ou plataforma de vendas de info produtos?
@@ -25,7 +25,7 @@
                     Molestias nostrum numquam vel porro expedita.
                 </template>
             </Accordion>
-            <Accordion>
+            <Accordion :accordion-id="'acc2'">
                 <template #question>
                     Quais métodos de pagamento a Blinky aceita?
                 </template>
@@ -35,7 +35,7 @@
                     Molestias nostrum numquam vel porro expedita.
                 </template>
             </Accordion>
-            <Accordion>
+            <Accordion :accordion-id="'acc3'">
                 <template #question>
                     Quanto tempo leva para os fundos das vendas <br>
                     estarem disponíveis em minha conta com a Blinky?
@@ -46,7 +46,7 @@
                     Molestias nostrum numquam vel porro expedita.
                 </template>
             </Accordion>
-            <Accordion>
+            <Accordion :accordion-id="'acc4'">
                 <template #question>
                     A Blinky fornece relatórios detalhados <br>
                     sobre minhas vendas e transações?

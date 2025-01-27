@@ -1,42 +1,48 @@
 <script setup lang="ts">
-    const showContent = ref<boolean>();
-    
-    const accButton = useTemplateRef('accButton');
-    const content = useTemplateRef('content');
-
-    const contentHeight = ref<number>(0);
-    const accButtonHeight = ref<number>(0);
-
-    onMounted(() => {
-        if(accButton.value && content.value){
-            accButtonHeight.value = accButton.value.clientHeight + 20;
-            contentHeight.value = content.value.clientHeight;
-        }
-    });
+    const { accordionId } = defineProps(['accordionId'])
 </script>
 
 <template>
-    <div ref="accordion" class="accordion" :style="showContent ? `height:${accButtonHeight + contentHeight}px` : ` height:${accButtonHeight}px;`">
-        <button ref="accButton" @click="showContent = !showContent" class="w-full flex gap-2 justify-between items-start px-5 sm:px-10 pt-5">
-            <p class="text-left text-sm sm:text-base font-poppins font-semibold bg-gradient-to-r from-blinkyBlue to-blinkyGreen bg-clip-text text-transparent"><slot name="question" /></p>
-            <div :class="showContent ? 'rotate-180 mt-1 transition-all duration-300' : 'mt-1 transition-all duration-300'">
-                <IconsCaretDown width="16" height="16" fill="#fff" />
+    <div class="accordion group">
+        <div class="w-full flex flex-col justify-between items-center">
+            <input class="hidden" :id="accordionId" type="radio" name="faq-accordion" />
+            <div class="w-full flex justify-between items-center">
+                <label :for="accordionId" class="accordion-title"><slot name="question" /></label>
             </div>
-        </button>
-        
-        <div ref="content" :class="showContent ? `opacity-1 content `: 'opacity-0 content'">
-            <p class="font-poppins text-blinkyLittleBege text-sm">
-                <slot name="answer" />
-            </p>
-        </div>
+
+            <div class="accordion-content w-full max-h-0 group-has-[:checked]:max-h-96">
+                <p class="font-poppins text-blinkyLittleBege text-sm pb-5">
+                    <slot name="answer" />
+                </p>
+            </div>
+        </div> 
     </div>
 </template>
 
 <style scoped>
     .accordion {
-        @apply w-full max-w-lg sm:max-w-xl bg-blinkyLittleDark rounded-2xl transition-all duration-300 shadow-2xl overflow-hidden
+        @apply w-full max-w-lg sm:max-w-xl bg-blinkyLittleDark rounded-2xl shadow-2xl relative
     }
-    .content {
-        @apply flex justify-start items-start px-5 sm:pl-10 pr-28 transition-all duration-500 py-5
+    .accordion-title {
+        @apply w-full p-5 cursor-pointer text-sm sm:text-base font-poppins font-semibold bg-gradient-to-r from-blinkyBlue to-blinkyGreen bg-clip-text text-transparent
     }
+
+    .accordion-content {
+        @apply w-full px-5 transition-all duration-500 overflow-hidden
+    }
+
+    .accordion::after {
+        content: url(@/assets/images/caret-down.svg);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        transition: all 500ms
+    }
+
+    .accordion:has(:checked)::after {
+        rotate: 180deg
+    }
+
 </style>
