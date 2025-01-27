@@ -17,7 +17,7 @@
                         Inscreva-se hoje e lidere os pagamentos <br>
                         digitais no mundo inteiro!
                     </p>
-                    <a class="hoverAnimation w-full flex gap-3 justify-center items-center font-poppins font-semibold text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">
+                    <a href="https://pay.blinkybr.com/register" class="hoverAnimation w-full flex gap-3 justify-center items-center font-poppins font-semibold text-lg text-black bg-gradient-to-r from-blinkyBlue to-blinkyGreen px-4 py-1.5 rounded-lg">
                             Cadastre-se
                         <IconsArrowForward width="20" height="20" stroke="#000" />
                     </a>
