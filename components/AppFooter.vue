@@ -30,32 +30,32 @@
         <div class="mx-auto w-full max-w-5xl space-y-10">
             <p class="font-poppins font-semibold text-white italic text-center">Políticas</p>
             
-            <nav>
+            <nav class="w-full max-w-md md:max-w-full mx-auto">
                 <ul class="flex gap-10 flex-wrap justify-center">
                     <li>
-                        <a class="font-poppins font-light text-white text-sm">
+                        <a class="w-32 md:w-fit font-poppins text-center block font-light break-words text-white text-sm">
                             Termos e condições de uso
                         </a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white text-sm">
+                        <a class="w-32 md:w-fit font-poppins text-center block font-light break-words text-white text-sm">
                             Política de Privacidade
                         </a>
                     </li>
                     <li>
-                        <a class="text-center block font-poppins font-light text-white text-sm">
-                            Política de Segurança <br>
+                        <a class="w-32 md:w-[10rem] font-poppins text-center block font-light break-words text-white text-sm">
+                            Política de Segurança
                             da Informação
                         </a>
                     </li>
                     <li>
-                        <a class="font-poppins font-light text-white text-sm">
+                        <a class="w-32 md:w-fit font-poppins text-center block font-light break-words text-white text-sm">
                             Política de Complicance
                         </a>
                     </li>
                     <li>
-                        <a class="text-center block font-poppins font-light text-white text-sm">
-                            Política de Prevenção à <br>
+                        <a class="w-44 font-poppins text-center block font-light break-words text-white text-sm">
+                            Política de Prevenção à
                             Lavagem de Dinheiro
                         </a>
                     </li>
