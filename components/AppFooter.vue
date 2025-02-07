@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full py-16 bg-[#090909] space-y-5 sm:space-y-12">
+    <footer class="w-full py-10 md:py-16 bg-[#090909] space-y-5 sm:space-y-12">
         <div class="mx-auto w-full max-w-4xl flex gap-10 flex-col md:flex-row justify-between items-center md:items-start sm:px-2">
             <img class="w-32" src="@/assets/images/blinky_logo.png" alt="blinky logo" />
 
