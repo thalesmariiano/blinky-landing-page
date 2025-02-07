@@ -1,5 +1,5 @@
 <template>
-    <section class="relative w-full flex flex-col justify-center items-center bg-[#070707] py-32 overflow-hidden px-2">
+    <section class="relative w-full flex flex-col justify-center items-center bg-[#070707] py-20 lg:py-32 overflow-hidden px-2">
         <img class="w-full max-w-6xl absolute -left-48 -top-96 mix-blend-screen" src="@/assets/images/light_blur_division.png" alt="light blur division" />
 
         <div class="relative w-full max-w-md sm:max-w-xl h-56 sm:h-72 bg-[#e6e6e6] rounded-t-3xl lg:hidden">
