@@ -7,7 +7,16 @@
             <div class="w-full flex justify-between ml-3">
                 <div>
                     <p class="text-xs text-white font-poppins font-semibold">Venda Realizada!</p>
-                    <p class="text-[11px] text-white font-poppins">Valor: R$ {{ Math.floor(Math.random() * 999) }},00</p>
+                    <p class="text-[11px] text-white font-poppins">
+                        <ClientOnly>
+                            Valor: {{
+                                Math.floor(Math.random() * (2000 - 14) + 14).toLocaleString('pt-BR', {
+                                    style: 'currency',
+                                    currency: 'BRL'
+                                })
+                            }}
+                        </ClientOnly>
+                    </p>
                 </div>
                 <p class="text-[11px] text-white font-poppins font-light">Agora</p>
             </div>
