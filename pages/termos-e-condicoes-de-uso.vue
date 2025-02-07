@@ -518,7 +518,7 @@
         Blinky Pay, especialmente, mas não se limitando a:
       </p>
 
-      <div class="w-full max-w-3xl mx-auto space-y-5 ml-10">
+      <div class="w-full max-w-3xl mx-auto space-y-5 pl-5 sm:pl-10">
         <p>
           (a) Violação a qualquer dispositivo da legislação brasileira,
           incluindo os emanados de órgãos de vigilância sanitária, agropecuária,
