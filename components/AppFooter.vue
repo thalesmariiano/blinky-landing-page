@@ -34,7 +34,7 @@
             <nav class="w-full max-w-md md:max-w-full mx-auto">
                 <ul class="flex gap-10 flex-wrap justify-center">
                     <li>
-                        <a href="/termos-condicoes-de-uso" target="_blank" class="w-32 md:w-fit font-poppins text-center block font-light break-words text-white text-sm hover:underline">
+                        <a href="/termos-e-condicoes-de-uso" target="_blank" class="w-32 md:w-fit font-poppins text-center block font-light break-words text-white text-sm hover:underline">
                             Termos e condições de uso
                         </a>
                     </li>
