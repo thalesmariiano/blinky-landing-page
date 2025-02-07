@@ -6,7 +6,7 @@
                 
             <div class="relative w-full max-w-lg lg:max-w-xl h-[28rem] md:h-[25rem] lg:h-[33rem] flex flex-col justify-center items-center p-2 sm:p-5 bg-gradient-to-tr from-blinkyLittleDark to-blinkyDark/80 rounded-t-3xl md:rounded-tr-none md:rounded-l-3xl">
                 
-                <img class="w-9 lg:w-11 absolute top-5 lg:top-6 md:mr-24 lg:mr-0 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
+                <img class="w-9 lg:w-11 absolute top-5 lg:top-6 md:mr-24 lg:mr-0 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" alt="blinky icon" />
 
                 <div class="space-y-7 text-center md:text-left mt-5 md:mt-0">
                     <h1 class="font-poppins font-semibold text-xl lg:text-3xl text-white">
@@ -25,8 +25,8 @@
                     <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
                         <p class="font-poppins font-semibold italic text-white">Baixe o aplicativo: </p>
                         <div class="flex gap-4">
-                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
-                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
+                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png" alt="ihone app store link"></a>
+                            <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png" alt="android play store link"></a>
                         </div>
                         
                     </div>

@@ -13,7 +13,7 @@
 <template>
     <div ref="headerNav" class="w-full flex justify-center items-center p-4 border-b-2 border-neutral-300/10 fixed top-0 left-0 z-[9999] transition-all">
         <header class="w-full max-w-4xl flex justify-between items-center">
-            <img class="w-28" src="@/assets/images/blinky_logo.png" />
+            <img class="w-28" src="@/assets/images/blinky_logo.png" alt="blinky logo" />
 
             <nav class="hidden md:block">
                 <ul class="flex gap-10 items-center">

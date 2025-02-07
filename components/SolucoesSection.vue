@@ -19,12 +19,12 @@
         <div class="skew-y-[4deg] flex flex-col md:flex-row items-center lg:items-start md:-translate-x-10 lg:translate-y-8">
             <div class="relative">
                 <!-- parallax icons -->
-                <img ref="protection_icon" class="w-20 lg:w-24 absolute top-10 right-52" src="@/assets/images/protection_white_icon.png" />
-                <img ref="speed_icon" class="w-20 lg:w-24 absolute top-80 left-24 lg:left-32" src="@/assets/images/speed_white_icon.png" />
-                <img ref="security_icon" class="w-20 lg:w-24 absolute bottom-28 lg:bottom-36 left-80 lg:left-[26rem]" src="@/assets/images/security_white_icon.png" />
+                <img ref="protection_icon" class="w-20 lg:w-24 absolute top-10 right-52" src="@/assets/images/protection_white_icon.png" alt="protection icon" />
+                <img ref="speed_icon" class="w-20 lg:w-24 absolute top-80 left-24 lg:left-32" src="@/assets/images/speed_white_icon.png" alt="speed icon" />
+                <img ref="security_icon" class="w-20 lg:w-24 absolute bottom-28 lg:bottom-36 left-80 lg:left-[26rem]" src="@/assets/images/security_white_icon.png" alt="security icon" />
                 <!-- parallax icons -->
 
-                <img class="w-full min-w-[32rem] max-w-lg md:max-w-3xl" src="@/assets/images/woman_icon_bg.png" />
+                <img class="w-full min-w-[32rem] max-w-lg md:max-w-3xl" src="@/assets/images/woman_icon_bg.png" alt="woman with tablet and blinky icon" />
             </div>
 
             <div class="flex gap-5 flex-col items-center md:items-start mt-5 md:-translate-x-16">
@@ -55,8 +55,8 @@
                         <IconsArrowForward width="20" height="20" stroke="#000" />
                     </a>
                     <div class="flex gap-4 items-center">
-                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
-                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png" alt="iphone app store link"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png" alt="android play store link"></a>
                     </div>
                 </div>
             </div>

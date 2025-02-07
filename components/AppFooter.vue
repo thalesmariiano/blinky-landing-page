@@ -1,7 +1,7 @@
 <template>
     <footer class="w-full py-16 bg-[#090909] space-y-5 sm:space-y-12">
         <div class="mx-auto w-full max-w-4xl flex gap-10 flex-col md:flex-row justify-between items-center md:items-start sm:px-2">
-            <img class="w-32" src="@/assets/images/blinky_logo.png" />
+            <img class="w-32" src="@/assets/images/blinky_logo.png" alt="blinky logo" />
 
             <div class="w-full sm:w-fit flex gap-10 sm:gap-24 flex-col sm:flex-row items-center sm:items-start">
                 <div class="w-full sm:w-fit space-y-3 text-center sm:text-left border-t-2 border-neutral-300/10 sm:border-none pt-5 sm:pt-0">
@@ -21,8 +21,8 @@
                 <div class="w-full sm:w-fit space-y-3 text-center sm:text-left border-t-2 border-neutral-300/10 sm:border-none px-2 pt-5 sm:pt-0">
                     <p class="font-poppins font-semibold text-white italic">Baixe nosso aplicativo:</p>
                     <div class="flex gap-4 justify-center items-center sm:justify-start">
-                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
-                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/app_store.png" alt="iphone app store link"></a>
+                        <a><img class="w-28 hover:scale-105 transition-all" src="@/assets/images/play_store.png" alt="android play store link"></a>
                     </div>
                 </div>
             </div>

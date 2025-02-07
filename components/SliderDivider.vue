@@ -31,19 +31,19 @@
                         <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">As menores taxas do mercado</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" alt="blinky icon" />
                     </li>
                     <li class="splide__slide">
                         <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">Saque instantâneo</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" alt="blinky icon" />
                     </li>
                     <li class="splide__slide">
                         <p class="font-poppins font-semibold text-center text-xl md:text-2xl whitespace-nowrap mx-auto">Saques via Criptomoeda (USDT)</p>
                     </li>
                     <li class="splide__slide">
-                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" />
+                        <img class="w-8 mx-auto" src="@/assets/images/blinky_icon_black.png" alt="blinky icon" />
                     </li>
                 </ul>
             </div>

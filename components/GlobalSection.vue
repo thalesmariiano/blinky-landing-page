@@ -4,8 +4,8 @@
 
         <div class="space-y-10 skew-y-[4deg]">
             <div class="relative flex justify-center bg-gradient-to-b lg:bg-gradient-to-r from-blinkyLittleDark to-blinkyLittleDark/20 p-8 sm:px-14 sm:py-10 rounded-3xl">
-                <img class="w-12 absolute -top-7 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
-                <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg] -z-10" src="@/assets/images/light_blur_division.png" />
+                <img class="w-12 absolute -top-7 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" alt="blinky icon" />
+                <img class="w-full max-w-3xl absolute top-10 -left-56 mix-blend-screen skew-y-[4deg] -z-10" src="@/assets/images/light_blur_division.png" alt="light blur division" />
 
                 <div class="space-y-8">
                     <h1 class="font-poppins font-semibold text-xl sm:text-3xl text-white">
@@ -25,8 +25,8 @@
                 
             </div>
             <div class="w-full flex gap-4 justify-center items-center">
-                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/app_store.png"></a>
-                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/play_store.png"></a>
+                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/app_store.png" alt="iphone app store link"></a>
+                <a><img class="w-32 hover:scale-105 transition-all" src="@/assets/images/play_store.png" alt="android play store link"></a>
             </div>
         </div>
 

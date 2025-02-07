@@ -14,18 +14,18 @@
 
 <template>
      <section @mousemove="parallax" class="relative -skew-y-[4deg] bg-[#070707] overflow-hidden px-2">
-        <img class="w-full max-w-5xl absolute -top-32 sm:-top-80 -left-64 sm:-left-96 opacity-5 rotate-12 skew-y-[4deg]" src="@/assets/images/blinky_icon_white.png" />
-        <img class="w-full max-w-5xl absolute -bottom-32 sm:-bottom-80 -right-64 sm:-right-96 opacity-5 skew-y-[4deg]" src="@/assets/images/blinky_icon_white.png" />
-        <img class="w-full max-w-5xl absolute -top-80 mix-blend-screen skew-y-[4deg]" src="@/assets/images/light_blur_division.png" />
-        <img class="w-full max-w-5xl absolute -bottom-48 -right-36 mix-blend-screen skew-y-[4deg]" src="@/assets/images/light_blur_division.png" />
+        <img class="w-full max-w-5xl absolute -top-32 sm:-top-80 -left-64 sm:-left-96 opacity-5 rotate-12 skew-y-[4deg]" src="@/assets/images/blinky_icon_white.png" alt="blinky icon" />
+        <img class="w-full max-w-5xl absolute -bottom-32 sm:-bottom-80 -right-64 sm:-right-96 opacity-5 skew-y-[4deg]" src="@/assets/images/blinky_icon_white.png" alt="blinky icon" />
+        <img class="w-full max-w-5xl absolute -top-80 mix-blend-screen skew-y-[4deg]" src="@/assets/images/light_blur_division.png" alt="light blur division" />
+        <img class="w-full max-w-5xl absolute -bottom-48 -right-36 mix-blend-screen skew-y-[4deg]" src="@/assets/images/light_blur_division.png" alt="light blur division" />
 
         <div class="relative mx-auto w-full max-w-lg flex justify-center items-center skew-y-[4deg] py-48">
             <img class="w-14 absolute top-28 drop-shadow-blinkyIcon" src="@/assets/images/blinky_icon_big.png" />
 
             <!-- parallax icons -->
-            <img ref="protection_icon" class="w-16 sm:w-20 absolute top-24 sm:top-32 -right-0 sm:-right-20" src="@/assets/images/protection_dark_icon.png" />
-            <img ref="speed_icon" class="w-16 sm:w-20 absolute top-72 -left-0 sm:-left-16" src="@/assets/images/speed_dark_icon.png" />
-            <img ref="security_icon" class="w-16 sm:w-20 absolute bottom-24 left-64 sm:left-72" src="@/assets/images/security_dark_icon.png" />
+            <img ref="protection_icon" class="w-16 sm:w-20 absolute top-24 sm:top-32 -right-0 sm:-right-20" src="@/assets/images/protection_dark_icon.png" alt="protection icon" />
+            <img ref="speed_icon" class="w-16 sm:w-20 absolute top-72 -left-0 sm:-left-16" src="@/assets/images/speed_dark_icon.png" alt="speed icon" />
+            <img ref="security_icon" class="w-16 sm:w-20 absolute bottom-24 left-64 sm:left-72" src="@/assets/images/security_dark_icon.png" alt="security icon" />
             <!-- parallax icons -->
 
             <div class="flex gap-10 flex-col">
