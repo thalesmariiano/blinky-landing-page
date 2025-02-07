@@ -1,5 +1,5 @@
 <template>
-    <section class="relative w-full flex gap-12 flex-col lg:flex-row justify-center items-center lg:items-start bg-blinkyBege py-36 px-2">
+    <section class="relative w-full flex gap-12 flex-col lg:flex-row justify-center items-center lg:items-start bg-blinkyBege py-20 lg:py-36 px-2">
         <img class="w-full max-w-5xl absolute -left-56 sm:-left-72 md:-left-[30rem] top-16 sm:-top-7 md:-top-52 opacity-[0.92]" src="@/assets/images/blinky_icon_big.png" alt="blinky icon blinky" />
 
         <div class="space-y-7 z-10 text-center lg:text-left">
