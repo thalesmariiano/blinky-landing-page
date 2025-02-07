@@ -10,6 +10,7 @@
 		new Splide(splide.value, {
 			type: 'loop',
 			perPage: 3,
+            perMove: 1,
 			arrows: false,
 			drag: false,
 			pagination: false,
