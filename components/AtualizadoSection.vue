@@ -39,22 +39,20 @@
         <div class="w-full px-2">
             <div class="w-full max-w-2xl mx-auto space-y-3 bg-blinkyLittleDark border-2 border-neutral-700 px-5 sm:px-10 md:px-20 py-5 rounded-3xl">
                 <div class="w-full flex gap-2 sm:gap-5 justify-center sm:justify-start items-center">
-                    <label class="flex gap-4 items-center group">
-                        <input type="checkbox" name="checkbox" class="hidden" checked disabled />
-                        <div class="w-4 h-4 border-2 border-blinkyGreen rounded transition-all">
-                            <div class="w-full h-full bg-blinkyGreen check-path hidden group-has-[:checked]:block"></div>
+                    <div class="flex gap-4 items-center">
+                        <div class="w-4 h-4 border-2 border-blinkyGreen rounded">
+                            <div class="w-full h-full bg-blinkyGreen check-path"></div>
                         </div>  
-                    </label>
+                    </div>
                     <p class="font-poppins italic text-white text-[10px] sm:text-base">Sem improviso para visualizar suas notificações de venda.</p>
                 </div>
 
                 <div class="w-full flex gap-2 sm:gap-5 justify-center sm:justify-start items-center">
-                    <label class="flex gap-4 items-center group">
-                        <input type="checkbox" name="checkbox" class="hidden" checked disabled />
-                        <div class="w-4 h-4 border-2 border-blinkyGreen rounded transition-all">
-                            <div class="w-full h-full bg-blinkyGreen check-path hidden group-has-[:checked]:block"></div>
+                    <div class="flex gap-4 items-center">
+                        <div class="w-4 h-4 border-2 border-blinkyGreen rounded">
+                            <div class="w-full h-full bg-blinkyGreen check-path"></div>
                         </div>
-                    </label>
+                    </div>
                     <p class="font-poppins italic text-white text-[10px] sm:text-base">Sem dificuldade para realizar o saque pelo celular.</p>
                 </div>   
                     
