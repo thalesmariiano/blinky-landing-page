@@ -1,7 +1,19 @@
 <template>
     <div class="relative w-full max-w-lg skew-y-[4deg]">
-        <video width="520" height="520" autoplay muted loop>
+        <video
+            width="520" 
+            height="520" 
+            controls="false"
+            autoplay 
+            muted 
+            loop 
+            playsinline 
+            webkit-playsinline 
+            disablepictureinpicture 
+            preload="auto"
+        >
             <source src="@/assets/videos/global.mp4" type="video/mp4">
+            <source src="@/assets/videos/global.ogg" type="video/ogg">
                 Your browser does not support the video tag.
         </video>
 
