@@ -4,23 +4,21 @@
     import Splide from '@splidejs/splide'
 	import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
-    const splide = useTemplateRef('splide')
+    const splide = ref('splide');
 
-	onMounted(() => {
-		new Splide(splide.value, {
-			type: 'loop',
-			perPage: 3,
-            perMove: 1,
-			arrows: false,
-			drag: false,
-			pagination: false,
-            fixedWidth: 'fit',
-            gap: 80,
-			autoScroll: {
-				speed: Number(direction)
-			}
-		}).mount({ AutoScroll })		
-	})
+	onMounted(() => new Splide(splide.value, {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        arrows: false,
+        drag: false,
+        pagination: false,
+        fixedWidth: 'fit',
+        gap: 80,
+        autoScroll: {
+            speed: Number(direction)
+        }
+    }).mount({ AutoScroll }))
 </script>
 
 <template>
