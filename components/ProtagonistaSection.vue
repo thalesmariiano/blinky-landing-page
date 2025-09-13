@@ -31,7 +31,7 @@
             <div class="flex gap-10 flex-col">
                 <h1 class="font-poppins font-semibold text-4xl md:text-5xl text-center text-white">
                     <span class="text-blinkyOceanGreen">Seja Protagonista</span> <br>
-                    o mundo digital <br>
+                    no mundo digital <br>
                     com a <span class="relative back-stroke text-shadow">Blinky!</span>
                 </h1>
                 <p class="font-poppins font-light text-white text-center text-[13px] md:text-lg">

@@ -34,7 +34,7 @@
                     seu E-commerce!
                 </h1>
                 <p class="font-poppins font-light text-sm sm:text-base lg:text-lg text-center md:text-left">
-                    Mais que um gateway, a blinky é o perceiro que <br>
+                    Mais que um gateway, a blinky é o parceiro que <br>
                     transforma sua operação digital.
                 </p>
                 <p class="font-poppins font-light text-sm sm:text-base lg:text-lg text-center md:text-left">

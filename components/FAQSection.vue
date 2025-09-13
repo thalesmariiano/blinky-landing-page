@@ -16,7 +16,7 @@
         <div class="flex flex-col gap-5 z-10">
             <Accordion :accordion-id="'acc1'">
                 <template #question>
-                    Quais são as etapas para configurar a Blinky <br>
+                    Quais são as etapas para configurar a Blinky em <br>
                     meu site ou plataforma de vendas de info produtos?
                 </template>
                 <template #answer>
