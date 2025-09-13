@@ -6,9 +6,9 @@
     const parallax = (e: MouseEvent) => {
         const tX = reescale(e.x, 0, window.innerWidth, -7.5, 7.5);
         const tY = reescale(e.y, 0, window.innerHeight, -7.5, 7.5);
-        protection.value.style.transform = `translate(${-5 + tX}%,${-5 + -tY}%)`;
-        speed.value.style.transform = `translate(${-5 + -tX}%,${-5 + tY}%)`;
-        security.value.style.transform = `translate(${-5 + tY}%,${-5 + tX}%)`;
+        protection!.value!.style.transform = `translate(${-5 + tX}%,${-5 + -tY}%)`;
+        speed.value!.style.transform = `translate(${-5 + -tX}%,${-5 + tY}%)`;
+        security.value!.style.transform = `translate(${-5 + tY}%,${-5 + tX}%)`;
     }
 </script>
 
